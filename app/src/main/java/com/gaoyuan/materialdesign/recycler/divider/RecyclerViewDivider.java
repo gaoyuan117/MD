@@ -1,4 +1,4 @@
-package com.gaoyuan.materialdesign.recycler;
+package com.gaoyuan.materialdesign.recycler.divider;
 
 import android.content.Context;
 import android.graphics.Canvas;

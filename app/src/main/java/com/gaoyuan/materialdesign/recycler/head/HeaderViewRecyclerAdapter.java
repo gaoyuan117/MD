@@ -1,4 +1,4 @@
-package com.gaoyuan.materialdesign.recycler;
+package com.gaoyuan.materialdesign.recycler.head;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.View;

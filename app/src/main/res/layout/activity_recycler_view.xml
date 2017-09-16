@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context="com.gaoyuan.materialdesign.recycler.RecyclerViewActivity">
 
-    <com.gaoyuan.materialdesign.recycler.WrapRecyclerView
+    <com.gaoyuan.materialdesign.recycler.head.WrapRecyclerView
         android:id="@+id/recycler"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>

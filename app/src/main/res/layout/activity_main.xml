@@ -26,6 +26,39 @@
         android:layout_height="wrap_content"
         android:onClick="toRecycler"
         android:text="recyclerView" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="slidingMenu"
+        android:text="侧滑" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="navigation"
+        android:text="Navigation" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="toSnackBar"
+        android:text="SnackBar" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="toTextInputLayout"
+        android:text="TextInputLayout" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="toToolbar"
+        android:text="Toolbar" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="toSearchView"
+        android:text="SearchView" />
 
     <!-- 这里需要在drawable在定义shape资源，否则将没有效果。 -->
     <android.support.v7.widget.LinearLayoutCompat

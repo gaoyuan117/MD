@@ -16,7 +16,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".recycler.RecyclerViewActivity"></activity>
+        <activity android:name=".recycler.RecyclerViewActivity" />
+        <activity android:name=".DrawerLayoutActivity" />
+        <activity android:name=".NavigationActivity" />
+        <activity android:name=".SnackBarActivity" />
+        <activity android:name=".TextInputLayoutActivity" />
+        <activity android:name=".ToolBarActivity" />
+        <activity android:name=".SearchViewActivity"></activity>
     </application>
 
 </manifest>

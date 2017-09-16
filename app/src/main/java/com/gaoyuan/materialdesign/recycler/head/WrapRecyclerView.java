@@ -1,12 +1,10 @@
-package com.gaoyuan.materialdesign.recycler;
+package com.gaoyuan.materialdesign.recycler.head;
 
 import android.content.Context;
 import android.support.annotation.Nullable;
 import android.support.v7.widget.RecyclerView;
 import android.util.AttributeSet;
 import android.view.View;
-import android.widget.HeaderViewListAdapter;
-import android.widget.ListView;
 
 import java.util.ArrayList;
 import java.util.List;

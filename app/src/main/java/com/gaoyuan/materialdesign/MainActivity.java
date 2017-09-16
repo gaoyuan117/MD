@@ -5,8 +5,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.ListPopupWindow;
 import android.support.v7.widget.PopupMenu;
+import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.BaseAdapter;
 import android.widget.LinearLayout;
 import android.widget.ListView;
@@ -33,7 +35,6 @@ public class MainActivity extends AppCompatActivity {
         ListView listView = (ListView) findViewById(R.id.listview);
         MyAdapter adapter = new MyAdapter();
         listView.setAdapter(adapter);
-
     }
 
     public void showPop(View view) {
@@ -47,16 +48,39 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void showPopMenu(View view) {
-        PopupMenu popupMenu = new PopupMenu(this,view);
-        getMenuInflater().inflate(R.menu.pop_menu,popupMenu.getMenu());
+        PopupMenu popupMenu = new PopupMenu(this, view);
+        getMenuInflater().inflate(R.menu.pop_menu, popupMenu.getMenu());
         popupMenu.show();
 
     }
 
     public void toRecycler(View view) {
-        startActivity(new Intent(this,RecyclerViewActivity.class));
+        startActivity(new Intent(this, RecyclerViewActivity.class));
     }
 
+    public void slidingMenu(View view) {
+        startActivity(new Intent(this, DrawerLayoutActivity.class));
+    }
+
+    public void navigation(View view) {
+        startActivity(new Intent(this, NavigationActivity.class));
+    }
+
+    public void toSnackBar(View view) {
+        startActivity(new Intent(this, SnackBarActivity.class));
+    }
+
+    public void toTextInputLayout(View view) {
+        startActivity(new Intent(this, TextInputLayoutActivity.class));
+    }
+
+    public void toToolbar(View view) {
+        startActivity(new Intent(this, ToolBarActivity.class));
+    }
+
+    public void toSearchView(View view) {
+        startActivity(new Intent(this, SearchViewActivity.class));
+    }
 
     class MyAdapter extends BaseAdapter {
 

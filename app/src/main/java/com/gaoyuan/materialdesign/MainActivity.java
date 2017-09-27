@@ -14,6 +14,7 @@ import android.widget.LinearLayout;
 import android.widget.ListView;
 
 import com.gaoyuan.materialdesign.recycler.RecyclerViewActivity;
+import com.gaoyuan.materialdesign.scroll_toorbar.TranslucentScrollToolbarActivity;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -32,9 +33,9 @@ public class MainActivity extends AppCompatActivity {
         mList.add("");
         mList.add("");
         mList.add("");
-        ListView listView = (ListView) findViewById(R.id.listview);
-        MyAdapter adapter = new MyAdapter();
-        listView.setAdapter(adapter);
+//        ListView listView = (ListView) findViewById(R.id.listview);
+//        MyAdapter adapter = new MyAdapter();
+//        listView.setAdapter(adapter);
     }
 
     public void showPop(View view) {
@@ -51,7 +52,10 @@ public class MainActivity extends AppCompatActivity {
         PopupMenu popupMenu = new PopupMenu(this, view);
         getMenuInflater().inflate(R.menu.pop_menu, popupMenu.getMenu());
         popupMenu.show();
+    }
 
+    public void toLinearLayoutCompat(View view) {
+        startActivity(new Intent(this, LinearLayoutCompatActivity.class));
     }
 
     public void toRecycler(View view) {
@@ -81,6 +85,19 @@ public class MainActivity extends AppCompatActivity {
     public void toSearchView(View view) {
         startActivity(new Intent(this, SearchViewActivity.class));
     }
+
+    public void toTranslucentScrollToolbarActivity(View view) {
+        startActivity(new Intent(this, TranslucentScrollToolbarActivity.class));
+    }
+
+    public void toPalette(View view) {
+        startActivity(new Intent(this, PaletteActivity.class));
+    }
+
+    public void toTranslucent(View view) {
+        startActivity(new Intent(this, TranslucentActivity.class));
+    }
+
 
     class MyAdapter extends BaseAdapter {
 

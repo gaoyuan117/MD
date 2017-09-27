@@ -22,7 +22,11 @@
         <activity android:name=".SnackBarActivity" />
         <activity android:name=".TextInputLayoutActivity" />
         <activity android:name=".ToolBarActivity" />
-        <activity android:name=".SearchViewActivity"></activity>
+        <activity android:name=".SearchViewActivity" />
+        <activity android:name=".scroll_toorbar.TranslucentScrollToolbarActivity" />
+        <activity android:name=".LinearLayoutCompatActivity" />
+        <activity android:name=".PaletteActivity" />
+        <activity android:name=".TranslucentActivity"></activity>
     </application>
 
 </manifest>

@@ -9,4 +9,6 @@
     <color name="background">#ccc000</color>
     <color name="ripple_color">#9ccc</color>
     <color name="white">#ffffffff</color>
+    <color name="black">#000000</color>
+    <color name="title_bar_color">#e1ef</color>
 </resources>

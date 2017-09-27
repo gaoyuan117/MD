@@ -49,7 +49,7 @@ public abstract class BaseTranslucentActivity extends AppCompatActivity {
     public abstract void init();
 
     /**
-     * 设置标题栏的颜色
+     * 设置标题栏的颜色¸
      * @param color
      */
     public void setTranslucentPrimaryColor(int color){

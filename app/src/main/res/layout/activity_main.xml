@@ -92,5 +92,34 @@
             android:onClick="toTranslucent"
             android:text="Translucent" />
 
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="toCardView"
+            android:text="CardView" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="toFab"
+            android:text="FloatingActionButton" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="toFab2"
+            android:text="FloatingActionButton2" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="toFab3"
+            android:text="FloatingActionButton3" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="toBottomSheetBehavior"
+            android:text="BottomSheetBehavior" />
+
     </LinearLayout>
 </ScrollView>

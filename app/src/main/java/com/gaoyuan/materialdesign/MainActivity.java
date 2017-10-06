@@ -5,14 +5,15 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.ListPopupWindow;
 import android.support.v7.widget.PopupMenu;
-import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
 import android.widget.BaseAdapter;
 import android.widget.LinearLayout;
-import android.widget.ListView;
 
+import com.gaoyuan.materialdesign.behavior.BottomSheetBehaviorActivity;
+import com.gaoyuan.materialdesign.fab.Fab2Activity;
+import com.gaoyuan.materialdesign.fab.Fab3Activity;
+import com.gaoyuan.materialdesign.fab.FabActivity;
 import com.gaoyuan.materialdesign.recycler.RecyclerViewActivity;
 import com.gaoyuan.materialdesign.scroll_toorbar.TranslucentScrollToolbarActivity;
 
@@ -96,6 +97,26 @@ public class MainActivity extends AppCompatActivity {
 
     public void toTranslucent(View view) {
         startActivity(new Intent(this, TranslucentActivity.class));
+    }
+
+    public void toCardView(View view) {
+        startActivity(new Intent(this, CardViewActivity.class));
+    }
+
+    public void toFab(View view) {
+        startActivity(new Intent(this,FabActivity.class));
+    }
+
+    public void toFab2(View view) {
+        startActivity(new Intent(this,Fab2Activity.class));
+    }
+
+    public void toFab3(View view) {
+        startActivity(new Intent(this,Fab3Activity.class));
+    }
+
+    public void toBottomSheetBehavior(View view) {
+        startActivity(new Intent(this,BottomSheetBehaviorActivity.class));
     }
 
 

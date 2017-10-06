@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.gaoyuan.materialdesign">
+
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -27,10 +29,16 @@
         <activity android:name=".scroll_toorbar.TranslucentScrollToolbarActivity" />
         <activity android:name=".LinearLayoutCompatActivity" />
         <activity android:name=".PaletteActivity" />
-        <activity android:name=".TranslucentActivity"></activity>
+        <activity android:name=".TranslucentActivity" />
         <activity
-            android:configChanges="orientation|screenSize"
-            android:name="me.nereo.multi_image_selector.MultiImageSelectorActivity" />
+            android:name="me.nereo.multi_image_selector.MultiImageSelectorActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity android:name=".CardViewActivity" />
+        <activity android:name=".fab.FabActivity" />
+        <activity android:name=".fab.Fab2Activity" />
+        <activity android:name=".fab.Fab3Activity" />
+        <activity android:name=".behavior.BottomSheetBehaviorActivity" />
+        <activity android:name=".behavior.Main4Activity" />
     </application>
 
 </manifest>
